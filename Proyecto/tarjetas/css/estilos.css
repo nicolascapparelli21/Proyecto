@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: arial, helvetica;
+  background-image: url('img.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu{
+  padding: 0;
+  background: #258508;
+  width: 200%;
+  display: flex;
+  max-width: 20000px;
+  margin: auto;
+  box-shadow: 7px 13px 37px #000000;
+}
+
+  .menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 22px;
+    display: flex;
+    display: block;
+  }
+
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .menu li a:hover{
+    background: #32bb54;
+  }
+
+  header{
+    display: flex;
+      text-align: center;
+    padding: 0.5em;
+  }
+  
+  .logo{
+    display: flex;
+  }
+  
+  .logo img{
+    height: 45px;
+  }
+  
+    h1{
+      color: rgb(255, 255, 255); 
+
+  }
+ 
+.parrafo1, .parrafo2{
+  width: 30%;
+  height: 450px;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  background: #fff;
+  box-shadow: 7px 13px 37px;
+  border-radius: 7px;
+  text-align: justify;
+  float: center;
+}
+
+.parrafos {
+  display: flex;
+  justify-content: center; 
+  gap: 200px; 
+  margin: auto; 
+  width: 100%;
+  max-width: 1800px; 
+}
+
+  .parrafo1 .button {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+
+  .parrafo2 .button {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+
+  .button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #000000;
+    transition: background-color 0.3s;}
+
+    .button:hover {
+      background-color: #13d243;
+  }
+
+
+
