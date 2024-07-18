@@ -30,7 +30,7 @@ header {
 .menu{
   padding: 0;
   background: #258508;
-  width: 200%;
+  width: 100%;
   display: flex;
   max-width: 20000px;
   margin: auto;
