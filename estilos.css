@@ -76,8 +76,8 @@ header{
 }
 
 .parrafo{
-	width: 550px; 
-	height: 490px;
+	width: 500px; 
+	height: 550px;
 	padding: 20px 20px; 
 	font-size: 20px;  
 	line-height: 1.5;
@@ -86,8 +86,9 @@ header{
 	border-radius: 7px;
 	margin: auto; 
 }
+
 @media (max-width: 768px) {
-    .parrafo1, .parrafo2, .parrafo3 {
+    .footer {
         width: 100%;
     }
   
